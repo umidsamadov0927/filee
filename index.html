@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapi s.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+
+</head>
+<body class="p-[2px]">
+
+<header class="text-center">
+    <div class="flex items-center justify-between pt-[10px] pb-[10px] pl-[30px] pr-[30px]">
+        <img class="" src="Qubit.svg" alt="Rectangle">
+        <div class=" flex gap-[40px] text-[14px]" id="texts"></div>
+        <div class="flex gap-[40px] ml-full">
+            <button class="bg-[#6F2CFF]  rounded-full py-2 px-14 color-white text-white" id="btn">Book a demo</button>
+            <p class="text-[14px] mt-[10px] transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">Log in</p>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="relative bg-cover bg-no-repeat bg-center " style="background-image: url(a309900a9c6ee85a96a94b1c486c4fc5a13d3627.png);">
+        <div class="pt-[134px] pl-[115px] pb-[200px]">
+            <p class="transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">
+                Driving growth with personalization.
+            </p>
+            <h2 class="font-bold text-[54px] transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">Make ecommerce</h2>
+            <h3 class="font-bold text-[54px] text-[#6F2DFF] transition-all duration-300 hover:text-black hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">More personal.</h3>
+            <p class="max-w-[438px]  mt-4 transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer  ">
+                Hundreds of brands use <span class="font-bold">Qubit CommerceAI</span> to power the next generation of product recommendations, badging and insights to build exceptional customer experiences.
+            </p>
+            <div class="flex rounded-full shadow-md overflow-hidden w-fit mt-6 border-2 border-[#6F2CFF]">
+                <input id="textInput" type="email" placeholder="Enter your email" class="px-12 py-2 text-gray-800 placeholder-gray-500 focus:outline-none rounded-l-full"/>
+                <button id="submitBtn" class="px-10 py-2 bg-[#6F2CFF] text-white font-medium hover:bg-blue-700 transition rounded-r-full">Book a demo</button>
+            </div>
+        </div>
+    </section>
+        <section class="relative py-10">
+            <h5 class="mt-2 mb-6 text-center font-medium font-roboto text-lg transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">Trusted by world-class brands.</h5>
+            <div id="main_img" class="flex flex-wrap justify-center gap-8 mb-4"></div>
+            <div id="main_img2" class="flex flex-wrap justify-center gap-8 hidden mb-4"></div>
+            <div class="text-center">
+                <button id="main_btn" class="text-sm text-purple-800 font-semibold border-b border-purple-800 hover:text-purple-900">
+                    Meet our customers & gt;
+                </button>
+            </div>
+        </section>
+
+    <section class="relative py-10">
+        <div class="font-roboto ml-[53px] flex  gap-[220px]  mt-[80px]">
+            <div>
+                <h3 class="text-4xl font-bold ml-[53px] transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">
+                    Grow 2.5x faster than <br> your competitors.
+                </h3>
+                <div class="flex items-center gap-8 ml-12 mt-[56px]">
+                    <button class="bg-[#6F2CFF] rounded-full py-2 px-8 text-white" id="btn2">
+                        Book a demo
+                    </button>
+                    <a href="#" class="transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer font-bold underline decoration-purple-400 underline-offset-8 decoration-[3px]">
+                        Meet our customers & gt;
+                    </a>
+                </div>
+                <div>
+                    <p class="ml-12 mt-[50px] transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">*PwC audited methodology.</p>
+                    <a href="#" class="transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer ml-12  underline decoration-black-400 underline-offset-8 decoration-[1px]">
+                        Read the report
+                    </a>
+                </div>
+            </div>
+            <div id="qatorlar" class=" w-1/2 grid grid-cols-2 gap-y-4 " ></div>
+        </div>
+    </section>
+
+    <section>
+        <p class="text-[40px] text-center font-bold mt-[93px] transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">What you can do with Qubit.</p>
+        <div id="card-container" class="mt-[58px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto"></div>
+
+    </section>
+
+    <section class="relative py-10 mt-[138px]">
+        <h3 class="mt-2 mb-6 text-center font-bold font-roboto text-4xl transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">We specialize in your industry.</h3>
+        <h6 class="mt-2 mb-6 text-center font-roboto text-lg transition-all duration-300 hover:text-[#6F2CFF] hover:[text-shadow:2px_2px_6px_rgba(111,44,255,0.5)] cursor-pointer">Learn how we are delivering personalization at scale across sectors.</h6>
+        <div class="mb-10 max-w-xl mx-auto space-y-4 px-4">
+            <input id="nameInput" type="text" placeholder="Name" class="w-full p-3   bg-[#F9F9F9]  border rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#6F2CFF]" />
+
+            <input id="surnameInput" type="text" placeholder="Surname" class="w-full p-3 bg-[#F9F9F9]  rounded-2xl border  focus:outline-none focus:ring-2 focus:ring-[#6F2CFF]" />
+
+            <input id="ageInput" type="text" placeholder="Age" class="w-full p-3 bg-[#F9F9F9]   border rounded-2xl focus:outline-none focus:ring-2 focus:ring-[#6F2CFF]" />
+
+            <div class="flex justify-end">
+                <button id="pushBtn" class="m-auto bg-[#BE8787] hover:bg-green-600 text-white px-6 py-1 rounded-full transition-colors duration-300 ">
+                    Push
+                </button>
+            </div>
+        </div>
+        <div id="document" class="max-w-xl mx-auto gap-4 w-1/2 grid grid-cols-2 "></div>
+    </section>
+
+    <section class="mt-[119px] bg-cover bg-center bg-no-repeat text-white py-20 px-4" style="background-image: url('Rectangle.svg');">
+        <div class="text-center p-8  rounded-xl max-w-xl mx-auto">
+            <div class="text-center ">
+            <h2 class="text-4xl font-bold mb-6">Book a demo today.</h2>
+            <div class="flex max-w-md mx-auto rounded-full overflow-hidden">
+            <input type="email" placeholder="Enter your email" class="flex-grow px-4 py-3 text-black outline-none" />
+            <button class="bg-[#6F2CFF] text-white px-6">Book a demo</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white text-center mt-[62px]">
+    <img src="rasm3333.svg" alt="Badge Image" class="mx-auto w-40 cursor-pointer" />
+    </section>
+
+    <section class="pb-10 bg-white text-center mt-[124px]">
+        <p class="text-gray-700 mb-4 text-lg">Connect with us</p>
+        <div class="flex justify-center cursor-pointer">
+        <img class="mt-[15px]" src="Rasm91829.svg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div></div>
+    </footer>
+
+</main>
+
+<footer id="qubit-footer" class="mt-[93px] bg-[#1b0137] text-white py-12"></footer>
+
+<script type="module" src="main.js"></script>
+<script type="module" src="kamron.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+}
+
+.modal{
+    width: 500px;
+    height: 500px;
+    background: darkred;
+    border-radius: 5px;
+    border: 3px solid black;
+    margin: 0 auto;
+    display: none;
+}
+.x{
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background: green;
+    margin-left: 448px;
+}
